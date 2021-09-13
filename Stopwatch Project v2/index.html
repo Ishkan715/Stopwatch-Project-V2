@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+
+  <div class="tabs">
+    <div class="function_selector">
+      <button
+        class="localTime"
+        data-tab="1"
+      >
+      Local Time (PST)
+      </button>
+      <button class="stopwatch" data-tab="2">
+        Stopwatch
+      </button>
+      <button class="countdown" data-tab="3">
+        Countdown Timer
+      </button>
+    </div>
+<section class ='slide section-1' id='stopwatch'>
+  <div class="wrapper">
+    <h1>Stopwatch</h1>
+
+    <h2 id="time"></h2>
+    <p><span id="mins">00</span>m:<span id="secs">00</span>s</p>
+
+    <div class="buttonContainer">
+      <div class="buttonSelector">
+        <button id="button-start" data-btn="start">Start</button>
+        <button id="button-stop" data-btn="stop">Stop</button>
+        <button id="button-reset" data-btn="reset">Reset</button>
+      </div>
+    </div>
+  </section >
+  <br>
+  <!-- <section class='slide section-2' id='localSect'>
+     <p>Test</p>
+  </section> -->
+    </br>
+
+
+    
+  </div>
+</html>
